@@ -9,7 +9,7 @@ namespace WowUpdateChecker
     class Program
     {
         private static string DiscordWebhookURL = "https://discordapp.com/api/webhooks/103636102431784/GqsdIOYv-nIcEtRyBrUh-srxdfcg_TroLoLlolETxrcytgvBkjn"; //Enter your discord webhook URL here
-        private static string BattleNetUpdateURL = "http://us.patch.battle.net:1119/wow/versions";
+        private static string BattleNetUpdateURL = "http://us.patch.battle.net:1119/wow_classic/versions";
         private static TimeSpan CheckDelay = TimeSpan.FromMinutes(1); //1 min interval
         
         static void Main(string[] args)
